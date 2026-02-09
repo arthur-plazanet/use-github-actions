@@ -1,5 +1,4 @@
-# .github/workflows/ci_router.yml
-name: (REUSABLE_WORKFLOW) CI - Lint, Format, Build and Test
+name: _CI - Lint, Format, Build and Test
 
 on:
   workflow_call:
@@ -13,7 +12,7 @@ on:
         description: 'Name of the job to run'
         required: false
         type: string
-        default: 'all' # all | lint_ | test
+        default: 'all' # all | lint | format | build | test
 
 jobs:
   lint:

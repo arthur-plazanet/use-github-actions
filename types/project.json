@@ -1,0 +1,7 @@
+{
+  "id": "string",
+  "name": "string",
+  "pictures": "string[]",
+  "description": "ProjectDescription",
+  "tags": "string[]"
+}

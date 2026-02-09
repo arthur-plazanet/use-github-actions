@@ -30,7 +30,7 @@ jobs:
       - name: Decrypt Files Recursively
         run: |
           shopt -s globstar
-          for file in data/**/*; do
+          for file in data/encrypted/**/*; do
             if [ -f "$file" ]; then
               # Skip the README.md file
               if [ "$(basename "$file")" = "README.md" ]; then
@@ -39,8 +39,8 @@ jobs:
               fi
               file_path="$(realpath "$file")"
               echo "Decrypting: \"$file_path\""
-              # Remove the "data/" prefix to get the relative path
-              relative_path="${file#data/}"
+              # Remove the "data/encrypted/" prefix to get the relative path
+              relative_path="${file#data/encrypted/}"
               echo "Relative path: \"$relative_path\""
               output_dir="decrypted-files/$(dirname "$relative_path")"
               mkdir -p "$output_dir"

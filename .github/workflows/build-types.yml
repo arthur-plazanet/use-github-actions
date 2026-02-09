@@ -1,0 +1,44 @@
+name: Build Types
+
+on:
+  pull_request:
+    paths:
+      - 'types/**'
+  push:
+    paths:
+      - 'types/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate TypeScript types
+        run: |
+          chmod +x scripts/generate-types.sh
+          ./scripts/generate-types.sh
+
+      - name: Commit and push to dist branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Create orphan dist branch or switch to it
+          git checkout --orphan dist-temp
+
+          # Keep only dist folder
+          git rm -rf --cached .
+
+          # Force-add dist even if ignored
+          git add -f dist/
+
+          git commit -m "Build types from ${{ github.sha }}"
+
+          # Force push to dist branch
+          git push origin HEAD:dist --force
