@@ -1,6 +1,7 @@
 {
+  "id": "string",
   "name": "string",
   "pictures": "string[]",
-  "description": "string",
+  "description": "ProjectDescription",
   "tags": "string[]"
 }

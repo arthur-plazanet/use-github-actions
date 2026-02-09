@@ -1,6 +1,9 @@
 name: Build Types
 
 on:
+  pull_request:
+    paths:
+      - 'types/**'
   push:
     paths:
       - 'types/**'
