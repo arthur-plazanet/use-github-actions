@@ -31,7 +31,9 @@ jobs:
 
           # Keep only dist folder
           git rm -rf --cached .
-          git add dist/
+
+          # Force-add dist even if ignored
+          git add -f dist/
 
           git commit -m "Build types from ${{ github.sha }}"
 
