@@ -1,0 +1,6 @@
+{
+  "name": "Example Project",
+  "pictures": ["https://example.com/img.jpg"],
+  "description": "A sample project for testing",
+  "tags": ["typescript", "astro"]
+}

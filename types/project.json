@@ -1,0 +1,6 @@
+{
+  "name": "string",
+  "pictures": "string[]",
+  "description": "string",
+  "tags": "string[]"
+}
