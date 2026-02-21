@@ -3,5 +3,6 @@
   "name": "string",
   "pictures": "string[]",
   "description": "ProjectDescription",
-  "tags": "string[]"
+  "tags": "string[]",
+  "links": "Link[]"
 }
