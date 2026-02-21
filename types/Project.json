@@ -2,7 +2,7 @@
   "id": "string",
   "name": "string",
   "pictures": "string[]",
-  "description": "ProjectDescription",
+  "description": "string",
   "tags": "string[]",
   "links": "Link[]"
 }
