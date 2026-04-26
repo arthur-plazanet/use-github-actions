@@ -1,11 +1,8 @@
 {
-  "id": "string",
+  "id": "nuxt-compose-icons",
   "name": "New name",
   "pictures": [],
   "description": "nuxt-icon-description",
   "tags": [],
-  "links": [
-    "nuxt-icon-link1",
-    "nuxt-icon-link2"
-  ]
+  "links": ["nuxt-icon-link1", "nuxt-icon-link2"]
 }
