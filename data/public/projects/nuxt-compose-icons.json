@@ -3,6 +3,9 @@
   "name": "New name",
   "pictures": [],
   "description": "nuxt-icon-description",
-  "tags": [],
-  "links": ["nuxt-icon-link1", "nuxt-icon-link2"]
+  "tags": [
+    "test",
+    "test2"
+  ],
+  "links": []
 }
