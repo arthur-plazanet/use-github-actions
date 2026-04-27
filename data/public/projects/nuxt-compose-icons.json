@@ -1,12 +1,10 @@
 {
   "id": "nuxt-compose-icons",
+  "slug": "nuxt-compose-icons",
   "name": "Nuxt-Compose-Icons",
   "pictures": [],
   "description": "<p><strong>nuxt-icon-description</strong></p>",
-  "tags": [
-    "test",
-    "test2"
-  ],
+  "tags": [],
   "links": [
     {
       "url": "https://nuxt-icons.use-compose.com/",
