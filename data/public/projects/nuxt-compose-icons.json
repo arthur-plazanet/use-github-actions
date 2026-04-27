@@ -4,7 +4,10 @@
   "name": "Nuxt-Compose-Icons",
   "pictures": [],
   "description": "<p><strong>nuxt-icon-description</strong></p>",
-  "tags": [],
+  "tags": [
+    "nuxt",
+    "vue"
+  ],
   "links": [
     {
       "url": "https://nuxt-icons.use-compose.com/",
