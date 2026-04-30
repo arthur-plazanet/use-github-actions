@@ -1,0 +1,16 @@
+{
+  "id": null,
+  "slug": null,
+  "name": "brut",
+  "pictures": [],
+  "description": "",
+  "tags": [
+    "typescript"
+  ],
+  "links": [
+    {
+      "url": "https://sdsd.de",
+      "label": "sd"
+    }
+  ]
+}
