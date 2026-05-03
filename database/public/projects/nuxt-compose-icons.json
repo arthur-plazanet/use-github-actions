@@ -8,6 +8,10 @@
     {
       "id": "vue",
       "label": "Vue"
+    },
+    {
+      "id": "nuxt",
+      "label": "Nuxt"
     }
   ],
   "links": [
