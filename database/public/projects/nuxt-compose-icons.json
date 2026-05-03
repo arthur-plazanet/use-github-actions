@@ -5,9 +5,10 @@
   "pictures": [],
   "description": "<p><strong>nuxt-iconqsd-description</strong></p>",
   "tags": [
-    "nuxt",
-    "vue",
-    "open-source"
+    {
+      "id": "vue",
+      "label": "Vue"
+    }
   ],
   "links": [
     {
