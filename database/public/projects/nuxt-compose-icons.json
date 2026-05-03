@@ -12,6 +12,10 @@
     {
       "id": "nuxt",
       "label": "Nuxt"
+    },
+    {
+      "id": "fe",
+      "label": "FE"
     }
   ],
   "links": [
