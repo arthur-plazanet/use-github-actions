@@ -6,6 +6,9 @@
   "pictures": [],
   "links": [],
   "tags": [
-    "typescript"
+    {
+      "id": "react",
+      "label": "React"
+    }
   ]
 }
