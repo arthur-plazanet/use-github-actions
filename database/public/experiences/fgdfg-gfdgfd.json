@@ -1,11 +1,14 @@
 {
-  "id": null,
+  "id": "019def95-89dc-732e-abab-8f818467b128",
   "slug": "fgdfg-gfdgfd",
   "title": "edgfdfg",
   "company": "sdfsdfsd",
   "startDate": "2026-05-13",
   "endDate": null,
   "description": null,
-  "tags": [],
+  "tags": [
+    "test",
+    "nuxt"
+  ],
   "links": []
 }
