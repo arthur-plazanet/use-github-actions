@@ -6,9 +6,6 @@
   "pictures": [],
   "links": [],
   "tags": [
-    {
-      "id": "react",
-      "label": "React"
-    }
+    "react"
   ]
 }
