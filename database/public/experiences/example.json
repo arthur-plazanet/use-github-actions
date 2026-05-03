@@ -1,0 +1,13 @@
+{
+  "id": "example-experience",
+  "slug": "example-experience",
+  "title": "Senior Frontend Developer",
+  "company": "Example Corp",
+  "startDate": "2022-01",
+  "endDate": "2024-06",
+  "description": "<p>Led development of key frontend features and design system components.</p>",
+  "tags": [],
+  "links": [
+    { "url": "https://example.com", "label": "Company website" }
+  ]
+}

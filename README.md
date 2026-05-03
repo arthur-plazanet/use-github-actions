@@ -10,7 +10,7 @@ It then became a playground to explore GitHub Actions capabilities and share re-
 
 ### Encryption and Decryption
 
-Store [data](https://github.com/arthur-plazanet/use-github-actions/tree/main/data/encrypted), encrypted with PGP if sensitive
+Store [data](https://github.com/arthur-plazanet/use-github-actions/tree/main/database/encrypted), encrypted with PGP if sensitive
 
 - Use [Github Actions](https://github.com/arthur-plazanet/use-github-actions/blob/main/.github/workflows/decrypt_data.yml) to decrypt and send the data to a private repository
 
@@ -23,8 +23,8 @@ _How it works:_
 
 ### Public Data
 
-- Store public [data](https://github.com/arthur-plazanet/use-github-actions/tree/main/data/public) that can be consumed as an API
-- See [README](https://github.com/arthur-plazanet/use-github-actions/blob/main/data/public/README.md)
+- Store public [data](https://github.com/arthur-plazanet/use-github-actions/tree/main/database/public) that can be consumed as an API
+- See [README](https://github.com/arthur-plazanet/use-github-actions/blob/main/database/public/README.md)
 
 ## Re-usable Workflows
 
