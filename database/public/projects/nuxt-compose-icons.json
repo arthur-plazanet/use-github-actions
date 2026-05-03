@@ -5,22 +5,10 @@
   "pictures": [],
   "description": "<p><strong>nuxt-iconqsd-description</strong></p>",
   "tags": [
-    {
-      "id": "vue",
-      "label": "Vue"
-    },
-    {
-      "id": "nuxt",
-      "label": "Nuxt"
-    },
-    {
-      "id": "fe",
-      "label": "FE"
-    },
-    {
-      "id": "lol",
-      "label": "Lol"
-    }
+    "vue",
+    "nuxt",
+    "fe",
+    "lol"
   ],
   "links": [
     {
