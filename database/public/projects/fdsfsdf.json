@@ -1,13 +1,16 @@
 {
-  "id": "019df02a-bf58-75cd-8680-b57f5c4cd109",
+  "id": "019df07d-5af7-7568-a9e9-f4619ebba262",
   "slug": "fdsfsdf",
   "name": "fdsfsdf",
   "description": "",
   "pictures": [],
   "links": [],
   "tags": [
-    "haha",
-    "lol",
-    "ppp"
-  ]
+    null,
+    null,
+    null,
+    null
+  ],
+  "createdAt": "2026-05-04T00:57:20.000+00:00",
+  "updatedAt": "2026-05-04T00:57:20.000+00:00"
 }
