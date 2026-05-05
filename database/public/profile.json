@@ -7,6 +7,18 @@
     "city": "q",
     "country": "s"
   },
-  "contacts": [],
-  "socials": []
+  "contacts": [
+    {
+      "type": "qqs",
+      "value": "qsd",
+      "label": "qsd"
+    }
+  ],
+  "socials": [
+    {
+      "platform": "qsdqsd",
+      "url": "qsdqsd",
+      "label": "sqdqsd"
+    }
+  ]
 }
